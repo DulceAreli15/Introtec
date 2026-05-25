@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areli</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@ 1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--Navbar o menu de navegacion-->
+
+    <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #A3E1DF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="Imagenes/logo.png" alt="" width="70" height="70" id="Inicio"><b>Areli</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Perfil">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Servicios.html">Diseño de personajes</a></li>
+                  <li><a class="dropdown-item" href="Ilustraciones.html">Ilustraciones</a></li>
+                  <li><a class="dropdown-item" href="Fotografias.html">Fotografias</a></li>
+                  <li><a class="dropdown-item" href="merch.html">Merch</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+            
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Ubicación
+  </button>
+  
+  <!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mapa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15036.620366601866!2d-99.2496192455292!3d19.57785516397675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21dac442d1d25%3A0x95fe1f8dd874ac1a!2sFoto%20Dayana!5e0!3m2!1ses-419!2smx!4v1778696390060!5m2!1ses-419!2smx" width="465" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Navdar o carrusel-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/Banner 1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/banner 2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/BIENVENIDO.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!--Informacion-->
+      <br>
+      <div class="container fluid" id="Perfil">
+        <div class="row">
+            <div class="Display 1 text-center" >
+                <h1> Conoce mi trabajo</h1>
+                <p>Explora mis proyectos y proceso creativo</p>
+            </div>
+        </div>
+        </div>
+        <br>
+
+      <!--Información de perfil-->
+        <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+            <img src="Imagenes/foto.jpeg" class="img-fluid w-75 mx-auto" alt="...">
+          </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <h2>HOLA!</h2>
+          <h4>Sobre mí</h4>
+        <div class="card">
+      <div class="card-body">
+      <p class="card-text"> Mi nombre es Dulce Areli y soy estudiante de Diseño y comunicación visual de la Facultad de Estudios Superiores Cuautitlán. Me especializo en la Ilustración digital y en Medios Impresos. Como diseñadora muestro interés en el desarrollo de proyectos con ideas visuales que comunican conceptos y experiencias de forma creativa.</p>
+      </div>
+        </div>
+        </div>
+
+      <!--Imagenes de softwares-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <h2 class="text-center">SOFTWARES</h2>
+                <div class="card p-4">
+                  <div class="d-flex justify-content-center gap-3 flex-wrap">
+                     <img src="Imagenes/Ilustrator.jpeg" class="img-fluid rounded" alt="..." width="120">
+                     <img src="Imagenes/phtoshop.jpeg" class="img-fluid rounded" alt="..." width="120">
+                     <img src="Imagenes/affinity.png" class="img-fluid rounded" alt="..." width="120">
+                     <img src="Imagenes/live 2d.png" class="img-fluid rounded" alt="..." width="120">
+                  </div>
+               </div>
+            </div>
+        </div>
+        </div>
+        <br>
+
+      <!--Información de Proyectos-->
+            <div class="Display 1 text-center" id="proyectos">
+                <h1>PROYECTOS</h1>
+            </div>
+            <br>
+
+      <!--Carrusel de proyectos-->
+         <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Imagenes/Banner proyectos 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/Banner proyectos 2.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+         </div>
+            <br>
+
+    <!--Cards de servicios-->
+    <div class="container mt-4" id="Servicios">
+      <div class="row">
+        <div class="Display 1 text-center">
+            <h1>SERVICIOS</h1>
+        </div>
+      </div>
+    </div>
+    
+    <!--Cards de imágenes--> 
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+          <div class="card h-90">
+              <img src="Imagenes/ilustracion digital curso.jpeg" alt="" class="card-img-top"> 
+              <div class="card-body">
+                <a href="Ilustraciones.html" class="text-decoration-none"><h5>Ilustraciones</h5></a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+          <div class="card h-90">
+              <img src="Imagenes/Producto final.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <a href="Servicios.html" class="text-decoration-none"><h5>Diseño de personajes</h5></a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+          <div class="card h-90">
+              <img src="Imagenes/mouckup taza1.jpeg" alt="" class="card-img-top">
+              <div class="card-body">
+                <a href="merch.html" class="text-decoration-none"><h5>Merch</h5></a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+          <div class="card h-90">
+              <img src="Imagenes/foto analoga3.jpeg" alt="" class="card-img-top">
+              <div class="card-body">
+                <a href="Fotografias.html" class="text-decoration-none"><h5>Fotografías</h5></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- FOOTER -->
+      <footer class=" text-dark pt-4 pb-3 mt-5" style="background-color: #A3E1DF;">
+        <div class="container text-center">
+          <div class="mb-2">
+      <a href="#Inicio" class="text-dark mx-2 text-decoration-none">Inicio</a>
+      <a href="#Perfil" class="text-dark mx-2 text-decoration-none">Perfil</a>
+      <a href="#proyectos" class="text-dark mx-2 text-decoration-none">Proyectos</a>
+      <a href="#Servicios" class="text-dark mx-2 text-decoration-none">Servicios</a>
+    </div>
+      
+            <!-- Redes sociales -->
+            <div class="mb-3" id="Contacto">
+                <a href="https://www.instagram.com/areli_esquiveldlc?igsh=cXh0MGpkdXdpOHp5"class="text-dark mx-3 fs-4">
+                    <i class="bi bi-instagram"></i>
+                </a> 
+            </div>
+      <!--Texto-->
+          <p class="mb-0 small">
+             © 2026 Areli | Todos los derechos reservados
+          </p>    
+        </div>
+      </footer>
+
+      <!---Botón de whats-->
+      <a href="http://wa.me/+527203958305" target="_blank">
+        <div style="position: fixed;bottom: 20px; left: 20px; background-color: #25D366; border-radius: 50%; width: 60px; height: 60px;display: flex; justify-content: center; align-items: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000;">
+          <i class="fab fa-whatsapp" style="color: white; font-size: 30px;"></i>
+        </div>
+      </a>
+
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
+         
+</body>
+</html>
